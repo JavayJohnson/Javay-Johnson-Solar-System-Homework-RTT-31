@@ -53,14 +53,26 @@ console.log(solarSystem);
 
     
     // 6. Change Mercury's ringSystem boolean to true.
-    
+console.log(solarSystem[0].ringSystem = true);
+console.log(solarSystem[0]);
+
     
     // 7. Change Uranus' moon "Umbriel" to "Oberon"
-    
+
+console.log(solarSystem[6].moons[3] = 'Oberon');
+console.log(solarSystem);
+
     
     // 8. Iterate through the solarSystem array and print only the objects that have a ringSystem (where ringSystem: true), and ignore the others.
     
-    
+    for (let i = 0; i < solarSystem.length; i++) {
+        if (solarSystem[i].ringSystem) {
+            console.log(solarSystem[i]);
+        }
+    }
+
+
+
     //////////////////////////////
     // The Solar System, Part 2 //
     //////////////////////////////
@@ -213,9 +225,14 @@ console.log(solarSystem);
     };
     
     // 1. Console.log the mass of Mercury
+
+    console.log(system.mercury.mass);
     
-    
+
     // 2. Console.log the eccentricity of Venus
+
+console.log(system.venus.eccentricity);
+
     
     
     // 3. Console.log the sum of the number of satellites of Jupiter, Saturn, Uranus, and Neptune (131)
