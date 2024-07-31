@@ -248,21 +248,24 @@ let numberOfSatellites = sum
 console.log(numberOfSatellites);
 
 
-    // 4. Write a conditional that checks if Mercury's radiusp is a string (remember the typeof command). If Mercury's radiusp is a string, change the value to be the same as its radiuse value. (radiusp is radius at the poles, radiuse is radius at the equator).
+    4. Write a conditional that checks if Mercury's radiusp is a string (remember the typeof command). If Mercury's radiusp is a string, change the value to be the same as its radiuse value. (radiusp is radius at the poles, radiuse is radius at the equator).
     
-    let radiusp = radiusAtThePole;
-    let radiuse = radiusAtTheEquator;
-    let radiusAtThePole = 2439;
-    let radiusAtTheEquator = 2439;
-
-
-
-
-
-
+    let mercury = {
+        radiusp: "2439.7", 
+        radiuse: 2439.7   
+    };
     
+    if (typeof mercury.radiusp === "string") {
+        mercury.radiusp = mercury.radiuse;
+    }
+    
+    console.log(mercury.radiusp);
+
+
+
     // 5. Console.log Mercury's radiusp (should be 2439, not 'same').
-    
+Note for Bryan: This does not come out as same, it comes out as a numberOfSatellites.
+
     
     // 6. Find the difference between Jupiter's momentum and Pluto's momentum. (To get momentum, you'll want the product of velocity and mass).    
 
