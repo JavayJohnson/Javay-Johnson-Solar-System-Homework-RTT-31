@@ -226,7 +226,7 @@ console.log(solarSystem);
     
     // 1. Console.log the mass of Mercury
 
-    console.log(system.mercury.mass);
+console.log(system.mercury.mass);
     
 
     // 2. Console.log the eccentricity of Venus
@@ -236,10 +236,30 @@ console.log(system.venus.eccentricity);
     
     
     // 3. Console.log the sum of the number of satellites of Jupiter, Saturn, Uranus, and Neptune (131)
-    
-    
+
+
+let Jupiter = 69;
+let Saturn = 30;
+let Uranus = 24;
+let Neptune = 8
+let sum = [Jupiter + Saturn + Uranus + Neptune]
+let numberOfSatellites = sum
+ 
+console.log(numberOfSatellites);
+
+
     // 4. Write a conditional that checks if Mercury's radiusp is a string (remember the typeof command). If Mercury's radiusp is a string, change the value to be the same as its radiuse value. (radiusp is radius at the poles, radiuse is radius at the equator).
     
+    let radiusp = radiusAtThePole;
+    let radiuse = radiusAtTheEquator;
+    let radiusAtThePole = 2439;
+    let radiusAtTheEquator = 2439;
+
+
+
+
+
+
     
     // 5. Console.log Mercury's radiusp (should be 2439, not 'same').
     
