@@ -15,6 +15,7 @@ const solarSystem = [
     
     // 1. Print the array of Jupiter's moons to the console (no for loop, just print the entire array).
 
+console.log(solarSystem[4].moons);
 
 
 
@@ -25,16 +26,31 @@ const solarSystem = [
 
     
     // 3. Add a new moon called "Endor" to Venus' moons array.
-    console.log(solarSystem[1].moons.push[0]);
-    n
-
-
+    console.log(solarSystem[1].moons.push,('Endor'));
     
+
+
     // 4. Add a Pluto object to the solarSystem array using .push. The object should contain Pluto's name, ringSystem boolean, and moons array (which includes "Charon").
-    
-    
+    //Push pluto object to solarsystem
+    //Add Pluto's name
+    //Add ring system Boolean
+    //Add moons array and include Charon
+
+
+solarSystem.push({Name: "Pluto", ringSystem: false, moons:["Charons"]});
+console.log(solarSystem);
+
+
     // 5. Add a new key-value pair to the the Earth object: the key should be 'diameter', and the value should be Earth's diameter in miles represented as a string.
-    
+//Add new key value pair
+//Add new Key Value pair to Earth object
+//Add 'diameter' for the key
+//diameter value should be Earths Diameter in miles
+//Represent Earths Diameter as a string
+
+const Earth = solarSystem.find(planet => planet.name === "Earth").diameter = "7,917.5 miles";
+console.log(solarSystem);
+
     
     // 6. Change Mercury's ringSystem boolean to true.
     
